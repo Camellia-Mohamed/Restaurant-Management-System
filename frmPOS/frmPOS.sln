@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "posForm", "posForm", "{36143C0A-943C-48F2-8244-B50D7D111F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosForm", "..\..\RM\RestaurantManagment\WindowsFormsApp1\PosForm.csproj", "{AFDFEF1B-776A-4217-8643-3FB836000D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmTableSelect", "frmTableSelect\frmTableSelect.csproj", "{D95026F7-4E44-477B-8424-171C8AB29E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmWaiterSelect", "frmWaiterSelect\frmWaiterSelect.csproj", "{856022E1-1F36-4517-9BB2-8A3EBD806588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{B3DEE81B-08F0-4F5F-9651-0933E5D75097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "frmBillList", "frmBillList\frmBillList.csproj", "{F15CD330-53A4-4745-8335-E3418666FECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmCheckout", "frmCheckout\frmCheckout.csproj", "{5A9061A1-67BA-4E8B-B86B-969C4FDF1D51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFDFEF1B-776A-4217-8643-3FB836000D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDFEF1B-776A-4217-8643-3FB836000D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDFEF1B-776A-4217-8643-3FB836000D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDFEF1B-776A-4217-8643-3FB836000D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95026F7-4E44-477B-8424-171C8AB29E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95026F7-4E44-477B-8424-171C8AB29E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95026F7-4E44-477B-8424-171C8AB29E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95026F7-4E44-477B-8424-171C8AB29E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856022E1-1F36-4517-9BB2-8A3EBD806588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856022E1-1F36-4517-9BB2-8A3EBD806588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856022E1-1F36-4517-9BB2-8A3EBD806588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856022E1-1F36-4517-9BB2-8A3EBD806588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15CD330-53A4-4745-8335-E3418666FECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15CD330-53A4-4745-8335-E3418666FECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15CD330-53A4-4745-8335-E3418666FECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15CD330-53A4-4745-8335-E3418666FECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9061A1-67BA-4E8B-B86B-969C4FDF1D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9061A1-67BA-4E8B-B86B-969C4FDF1D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9061A1-67BA-4E8B-B86B-969C4FDF1D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9061A1-67BA-4E8B-B86B-969C4FDF1D51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFDFEF1B-776A-4217-8643-3FB836000D42} = {36143C0A-943C-48F2-8244-B50D7D111F06}
+		{D95026F7-4E44-477B-8424-171C8AB29E52} = {36143C0A-943C-48F2-8244-B50D7D111F06}
+		{856022E1-1F36-4517-9BB2-8A3EBD806588} = {36143C0A-943C-48F2-8244-B50D7D111F06}
+		{F15CD330-53A4-4745-8335-E3418666FECE} = {B3DEE81B-08F0-4F5F-9651-0933E5D75097}
+		{5A9061A1-67BA-4E8B-B86B-969C4FDF1D51} = {B3DEE81B-08F0-4F5F-9651-0933E5D75097}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {631B6A93-CF72-4778-9892-51D9FD86A91E}
+	EndGlobalSection
+EndGlobal
